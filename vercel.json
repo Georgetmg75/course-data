@@ -18,8 +18,12 @@
       "handle": "filesystem"
     },
     {
-      "src": "/api/(.*)",
-      "dest": "/api/$1"
+      "src": "^/api/courses$",
+      "dest": "/api/courses.js"
+    },
+    {
+      "src": "^/api/courses/(.*)$",
+      "dest": "/api/courses/[id].js"
     },
     {
       "src": "/(.*)",
