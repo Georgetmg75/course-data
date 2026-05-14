@@ -1,0 +1,39 @@
+{
+  "courses": [
+    {
+      "id": 1,
+      "name": "Introduction to React",
+      "instructor": "Sarah Johnson",
+      "category": "Frontend",
+      "rating": 4.5
+    },
+    {
+      "id": 2,
+      "name": "Advanced JavaScript",
+      "instructor": "Mike Chen",
+      "category": "Programming",
+      "rating": 4.8
+    },
+    {
+      "id": 3,
+      "name": "Node.js Fundamentals",
+      "instructor": "Mike Chen",
+      "category": "Backend",
+      "rating": 4.2
+    },
+    {
+      "id": 4,
+      "name": "CSS Grid and Flexbox",
+      "instructor": "Sarah Johnson",
+      "category": "Frontend",
+      "rating": 4.7
+    },
+    {
+      "id": 5,
+      "name": "Python for Data Science",
+      "instructor": "Emily Watson",
+      "category": "Data Science",
+      "rating": 4.9
+    }
+  ]
+}

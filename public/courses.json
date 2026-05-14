@@ -1,0 +1,66 @@
+[
+  {
+    "id": 1,
+    "name": "Introduction to React",
+    "duration": "4 weeks",
+    "rating": 4.5,
+    "category": "Frontend",
+    "instructor": "Sarah Johnson"
+  },
+  {
+    "id": 2,
+    "name": "Advanced JavaScript",
+    "duration": "6 weeks",
+    "rating": 4.8,
+    "category": "Programming",
+    "instructor": "Mike Chen"
+  },
+  {
+    "id": 3,
+    "name": "Node.js Fundamentals",
+    "duration": "5 weeks",
+    "rating": 4.2,
+    "category": "Backend",
+    "instructor": "Mike Chen"
+  },
+  {
+    "id": 4,
+    "name": "CSS Grid and Flexbox",
+    "duration": "3 weeks",
+    "rating": 4.7,
+    "category": "Frontend",
+    "instructor": "Sarah Johnson"
+  },
+  {
+    "id": 5,
+    "name": "Python for Data Science",
+    "duration": "8 weeks",
+    "rating": 4.9,
+    "category": "Data Science",
+    "instructor": "Emily Watson"
+  },
+  {
+    "id": 6,
+    "name": "Machine Learning Basics",
+    "duration": "10 weeks",
+    "rating": 4.6,
+    "category": "AI/ML",
+    "instructor": "Emily Watson"
+  },
+  {
+    "id": 7,
+    "name": "Database Design",
+    "duration": "4 weeks",
+    "rating": 4.3,
+    "category": "Backend",
+    "instructor": "John Smith"
+  },
+  {
+    "id": 8,
+    "name": "UI/UX Design Principles",
+    "duration": "6 weeks",
+    "rating": 4.4,
+    "category": "Design",
+    "instructor": "Lisa Brown"
+  }
+]
