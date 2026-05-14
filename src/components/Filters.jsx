@@ -6,18 +6,21 @@ const Filters = ({ onFilterChange }) => {
   const [search, setSearch] = useState('');
 
   const handleCategoryChange = (e) => {
-    setCategory(e.target.value);
-    onFilterChange({ category: e.target.value, instructor, search });
+    const value = e.target.value;
+    setCategory(value);
+    onFilterChange({ category: value, instructor, search });
   };
 
   const handleInstructorChange = (e) => {
-    setInstructor(e.target.value);
-    onFilterChange({ category, instructor: e.target.value, search });
+    const value = e.target.value;
+    setInstructor(value);
+    onFilterChange({ category, instructor: value, search });
   };
 
   const handleSearchChange = (e) => {
-    setSearch(e.target.value);
-    onFilterChange({ category, instructor, search: e.target.value });
+    const value = e.target.value;
+    setSearch(value);
+    onFilterChange({ category, instructor, search: value });
   };
 
   return (
